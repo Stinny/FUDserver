@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const controllers = require('./controllers');
 const multer = require('multer');
-const setUser = require('../../kretey/server/middleware/setUser');
+const setUser = require('./middleware/setUser');
 
 //multer config
 const storage = multer.memoryStorage();

@@ -17,6 +17,6 @@ const routes = require('./routes');
 
 server.use('/api', routes);
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 
 server.listen(port, '0.0.0.0', () => console.log(`Server running at ${port}`));
